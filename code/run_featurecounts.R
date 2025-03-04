@@ -6,7 +6,6 @@ library(Rsubread)
 info <- read.csv(
   "/storage/thinc/projects/resources/sra/SRP425509/SraRunTable.csv")
 
-
 # Define files ####
 files <- system(
   "ls /storage/thinc/projects/resources/sra/SRP425509/bam/*bam",
